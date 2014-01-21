@@ -7,7 +7,6 @@ import org.pircbotx.hooks.events.IncomingChatRequestEvent;
 import org.pircbotx.hooks.events.MessageEvent;
 import org.pircbotx.hooks.managers.ListenerManager;
 import org.pircbotx.hooks.types.GenericMessageEvent;
-import net.irc.botConfig._;
 import net.irc.botConfFactory._;
 
 object IRCBot {
