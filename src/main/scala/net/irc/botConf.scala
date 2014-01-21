@@ -36,6 +36,6 @@ class BotConfig {
 
   def loadConfig: Properties = {
     val prop = new LoadConfig
-    return prop.loadConfig
+    return prop.loadConf
   }
 }

@@ -6,7 +6,7 @@ import java.io.FileNotFoundException
 import java.io.FileInputStream
 
 class LoadConfig extends Properties {
-  def loadConfig: Properties = {
+  def loadConf: Properties = {
     val confFile = "conf.properties"
     checkFileExists(confFile) match {
       case Some(file) => ()
