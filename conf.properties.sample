@@ -1,0 +1,7 @@
+nick     = ScalalalaBot
+realname = scalalala
+server   = irc.freenode.net
+port     = 6667
+#password = "password"
+channel  = #tutbot-testing
+usessl   = false
