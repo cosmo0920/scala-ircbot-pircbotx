@@ -6,7 +6,7 @@ import scala.util.control.Exception._
 import org.pircbotx._
 import net.irc.botConfig._;
 
-class BotConfFactory {
+object BotConfFactory {
   def botConfFactory: PircBotX = {
     val charCode = Charset.forName("UTF-8")
     val conf = new BotConfig
