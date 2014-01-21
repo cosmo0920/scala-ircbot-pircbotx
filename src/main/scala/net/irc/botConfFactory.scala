@@ -12,7 +12,7 @@ object BotConfFactory {
     val conf = new BotConfig
     val config = new Configuration.Builder()
     config.setName(conf.nick)
-    config.setLogin(conf.realname)
+    config.setLogin(conf.loginName)
     config.setAutoNickChange(true)
     conf.password match {
       case Some(password) =>
