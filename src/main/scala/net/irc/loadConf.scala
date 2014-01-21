@@ -20,8 +20,8 @@ class LoadConfig extends Properties {
   }
 
   def checkFileExists(filename: String): Option[File] = {
-    val file = new File( filename )
-    if( file.exists ) Some( file )
+    val file = new File(filename)
+    if(file.exists) Some(file)
     else None
   }
 }
