@@ -4,7 +4,7 @@ import javax.net.ssl.SSLSocketFactory
 import java.nio.charset.Charset
 import scala.util.control.Exception._
 import org.pircbotx._
-import net.irc.botConfig._;
+import net.irc.botConfig._
 
 object BotConfFactory {
   def create: PircBotX = {
