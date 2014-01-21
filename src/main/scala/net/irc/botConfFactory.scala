@@ -26,7 +26,6 @@ object BotConfFactory {
     config.setEncoding(charCode)
     config.addAutoJoinChannel(conf.channel)
     config.setAutoReconnect(true)
-    val bot = new PircBotX(config.buildConfiguration())
-    return bot
+    return new PircBotX(config.buildConfiguration())
   }
 }
