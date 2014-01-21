@@ -7,7 +7,7 @@ import org.pircbotx._
 import net.irc.botConfig._;
 
 object BotConfFactory {
-  def botConfFactory: PircBotX = {
+  def create: PircBotX = {
     val charCode = Charset.forName("UTF-8")
     val conf = new BotConfig
     val config = new Configuration.Builder()

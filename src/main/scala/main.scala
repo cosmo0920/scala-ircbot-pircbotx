@@ -11,8 +11,7 @@ import net.irc.botConfFactory._;
 
 object IRCBot {
   def main(args: Array[String]) {
-    val botConf = BotConfFactory
-    val bot = botConf.botConfFactory
+    val bot = BotConfFactory.create
     try {
       bot.startBot
     } catch {
