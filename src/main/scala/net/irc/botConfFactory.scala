@@ -27,6 +27,6 @@ class BotConfFactory {
     config.addAutoJoinChannel(conf.channel)
     config.setAutoReconnect(true)
     val bot = new PircBotX(config.buildConfiguration())
-    return bot: PircBotX
+    return bot
   }
 }

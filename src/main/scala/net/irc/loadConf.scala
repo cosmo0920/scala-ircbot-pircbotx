@@ -16,7 +16,7 @@ class LoadConfig extends Properties {
     val prop = new java.util.Properties()
     val fis = new FileInputStream(confFile)
     prop.load(fis)
-    return prop: Properties
+    return prop
   }
 
   def checkFileExists(filename: String): Option[File] = {
