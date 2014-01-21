@@ -1,5 +1,5 @@
 nick     = ScalalalaBot
-realname = scalalala
+login    = scalalala
 server   = irc.freenode.net
 port     = 6667
 #password = "password"
