@@ -2,6 +2,8 @@ name := "IRC_Bot"
 
 version := "1.0"
 
+organization := "net.cosmo0920"
+
 resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
 
 libraryDependencies := Seq(
@@ -11,8 +13,6 @@ libraryDependencies := Seq(
   "junit" % "junit" % "4.10" % "test",
   "org.specs2" %% "specs2" % "1.14" % "test"
 )
-
-mainClass in (Compile,run) := Some("scala.main.IRCBot")
 
 scalaVersion := "2.10.2"
 

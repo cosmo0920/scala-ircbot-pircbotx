@@ -1,4 +1,4 @@
-package net.irc.loadConf
+package net.cosmo0920.irc.loadConf
 
 import java.util.Properties
 import java.io.File

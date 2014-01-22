@@ -1,8 +1,8 @@
-package net.irc.botConfig
+package net.cosmo0920.irc.botConfig
 import java.util.Properties
 import java.io.FileInputStream
 import scala.util.control.Exception._
-import net.irc.loadConf._
+import net.cosmo0920.irc.loadConf._
 
 class BotConfig {
   def nick: String = {
