@@ -1,6 +1,6 @@
 name := "IRC_Bot"
 
-version := "1.0"
+version := "0.1-pre"
 
 organization := "net.cosmo0920"
 
