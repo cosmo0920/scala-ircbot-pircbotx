@@ -15,9 +15,9 @@ class LoadConfig extends Properties {
     }
     val prop = new java.util.Properties()
     val fis = new FileInputStream(confFile)
-    val isr = new InputStreamReader(fis, "UTF-8");
+    val isr = new InputStreamReader(fis, "UTF-8")
     prop.load(isr)
-    return prop
+    prop
   }
 
   def checkFileExists(filename: String): Option[File] = {

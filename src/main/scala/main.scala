@@ -1,6 +1,5 @@
 package net.cosmo0920
 
-import org.pircbotx._
 import net.cosmo0920.irc.botConfFactory._
 
 class IRCBot {

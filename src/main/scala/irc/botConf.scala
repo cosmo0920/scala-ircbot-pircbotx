@@ -33,12 +33,12 @@ class BotConfig {
   }
 
   def password: Option[String] = {
-    return catching(classOf[NullPointerException]) opt
+    catching(classOf[NullPointerException]) opt
       loadConfig.get("password").toString
   }
 
   def loadConfig: Properties = {
     val prop = new LoadConfig
-    return prop.loadConf
+    prop.loadConf
   }
 }
