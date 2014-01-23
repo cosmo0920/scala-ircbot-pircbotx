@@ -18,7 +18,7 @@ class IRCBot {
     try {
       bot.startBot
     } catch {
-      case e: Exception => e.printStackTrace()
+      case e: Exception => e.printStackTrace
     }
   }
 }

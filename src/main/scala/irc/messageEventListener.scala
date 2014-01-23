@@ -7,9 +7,9 @@ import java.util.Date
 
 class messageEventListener extends ListenerAdapter[PircBotX] {
   override def onMessage(event: MessageEvent[PircBotX]) {
-    if (event.getMessage().equals("?hello"))
+    if (event.getMessage.equals("?hello"))
       event.respond("Hello World!");
-    if (event.getMessage().equals(".time"))
-      event.respond("The current time is " + new Date())
+    if (event.getMessage.equals(".time"))
+      event.respond("The current time is " + new Date)
   }
 }
