@@ -2,7 +2,7 @@ package net.cosmo0920.irc.botConfFactory
 
 import javax.net.ssl.SSLSocketFactory
 import java.nio.charset.Charset
-import scala.util.control.Exception._
+import net.csomo0920.irc.eventListener._
 import org.pircbotx._
 import net.cosmo0920.irc.botConfig._
 
@@ -14,6 +14,7 @@ object BotConfFactory {
     config.setName(conf.nick)
     config.setLogin(conf.loginName)
     config.setAutoNickChange(true)
+    config.getListenerManager().addListener(new eventListener)
     conf.password match {
       case Some(password) =>
         config.setServerPassword(password)

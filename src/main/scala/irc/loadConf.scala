@@ -2,7 +2,6 @@ package net.cosmo0920.irc.loadConf
 
 import java.util.Properties
 import java.io.File
-import java.io.FileNotFoundException
 import java.io.FileInputStream
 import java.io.InputStreamReader
 

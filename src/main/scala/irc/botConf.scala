@@ -1,6 +1,5 @@
 package net.cosmo0920.irc.botConfig
 import java.util.Properties
-import java.io.FileInputStream
 import scala.util.control.Exception._
 import net.cosmo0920.irc.loadConf._
 
