@@ -15,5 +15,3 @@ libraryDependencies := Seq(
 )
 
 scalaVersion := "2.10.2"
-
-crossScalaVersions := Seq("2.9.1")
