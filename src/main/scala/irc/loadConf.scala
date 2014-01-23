@@ -4,6 +4,7 @@ import java.util.Properties
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.FileInputStream
+import java.io.InputStreamReader
 
 class LoadConfig extends Properties {
   def loadConf: Properties = {
@@ -15,7 +16,8 @@ class LoadConfig extends Properties {
     }
     val prop = new java.util.Properties()
     val fis = new FileInputStream(confFile)
-    prop.load(fis)
+    val isr = new InputStreamReader(fis, "UTF-8");
+    prop.load(isr)
     return prop
   }
 
