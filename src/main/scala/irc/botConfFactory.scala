@@ -3,7 +3,7 @@ package net.cosmo0920.irc.botConfFactory
 import javax.net.ssl.SSLSocketFactory
 import java.nio.charset.Charset
 import org.pircbotx._
-import net.csomo0920.irc.messageEventListener._
+import net.cosmo0920.irc.messageEventListener._
 import net.cosmo0920.irc.botConfig._
 
 object BotConfFactory {

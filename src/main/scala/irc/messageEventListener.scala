@@ -1,4 +1,4 @@
-package net.csomo0920.irc.messageEventListener
+package net.cosmo0920.irc.messageEventListener
 
 import org.pircbotx.PircBotX
 import org.pircbotx.hooks.ListenerAdapter
