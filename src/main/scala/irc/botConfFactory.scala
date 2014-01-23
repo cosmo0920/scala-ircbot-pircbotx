@@ -13,6 +13,7 @@ object BotConfFactory {
     val config = new Configuration.Builder
     config.setName(conf.nick)
     config.setLogin(conf.loginName)
+    config.setRealName(conf.realname)
     config.setAutoNickChange(true)
     config.getListenerManager.addListener(new messageEventListener)
     conf.password match {

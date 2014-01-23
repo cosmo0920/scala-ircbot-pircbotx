@@ -12,6 +12,10 @@ class BotConfig {
     loadConfig.get("login").toString
   }
 
+  def realname: String = {
+    loadConfig.get("realname").toString
+  }
+
   def server: String = {
     loadConfig.get("server").toString
   }
