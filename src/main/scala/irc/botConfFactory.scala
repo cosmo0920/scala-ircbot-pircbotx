@@ -28,6 +28,6 @@ object BotConfFactory {
     config.setEncoding(charCode)
     config.addAutoJoinChannel(conf.channel)
     config.setAutoReconnect(true)
-    return new PircBotX(config.buildConfiguration)
+    new PircBotX(config.buildConfiguration)
   }
 }
